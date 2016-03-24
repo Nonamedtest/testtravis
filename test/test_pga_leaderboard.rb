@@ -12,6 +12,9 @@ class TestPgaLeaderbord < Test::Unit::TestCase
     # Test to pass in a known tournament id and get back corresponding JSON
     t = Leaderboard.getJSON('033')
     assert_equal("http://www.pgatour.com/data/r/033/leaderboard-v2.json",t)
+
+    t = Leaderboard.getJSON('046')
+    assert_equal("http://www.pgatour.com/data/r/046/leaderboard-v2.json",t)
    
     # Test to pass in a known PGA tournament leaderboard and get back corresponding JSON
     t = Leaderboard.getJSON('http://www.pgatour.com/tournaments/the-rsm-classic/leaderboard.html')
