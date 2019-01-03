@@ -1,6 +1,6 @@
 language: ruby
 ruby:
-  - "2.6.0"
+  - "2.0.0"
 # command to install dependencies
 # added ruby test
 script: ruby test/test_pga_leaderboard.rb
