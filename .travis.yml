@@ -5,4 +5,4 @@ rvm:
 # added ruby test
 script: ruby test/test_pga_leaderboard.rb
 notifications:
-   slack: nonamed-hq: x23cfOE12hD5Q0dCJDGpaMyw
+   slack: nonamed-hq:x23cfOE12hD5Q0dCJDGpaMyw
